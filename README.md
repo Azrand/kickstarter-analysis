@@ -4,24 +4,24 @@
 ## Overview of Project
 
 
-Using Kickstarter data for Theater Plays, we are determining the optimum time and monetization goal to launch a Kickstarter campaign. We used data provided by the University of Wisconsin that had Kickstarter data from 2009 to 2017. 
+Using Kickstarter data for Theater Plays, we are determining the optimum time and monetization goal to launch a Kickstarter campaign. We used data from the University of Wisconsin that had Kickstarter data from 2009 to 2017. 
 
 
 ### Purpose
 
 
-Utilizing Kickstarter data from 2009 to 2017, we have been tasked with a project from the University of Wisconsin. In this scenario for the project, we are given a client, Louise, who had a play named _*Fever*_, and it came close to its fundraising goal in a short amount of time. Louise wants to know how different campaigns fared in relation to their launch dates and their funding goals. 
+Utilizing Kickstarter data from 2009 to 2017, we have been tasked with a project from the University of Wisconsin. In this scenario for the project, we are given a client, Louise, who had a play named _*Fever*_, and it came close to its fundraising goal in a short amount of time. Louise wants to know how different campaigns fared with their launch dates and funding goals. 
 
 
-We will address this challenge by filtering the data provided to us. The original file had merged parent categories and sub-categories into one column. Organizing the data into correct categories will make the data easier to manage and to display.
-Once the data is filtered and displayed correctly, we can infer when the optimal time and monetization goal, for a Theater Play Kickstarter Campaign to be deployed.  
+We will address this challenge by filtering the data provided to us. The original file had merged parent categories and sub-categories into one column. Organizing the data into correct categories will make the data easier to manage and display.
+Once the data is filtered and displayed correctly, we can infer the optimal time and monetization goal for a Theater Play Kickstarter Campaign to be deployed.  
 ## Analysis and Challenges
 
 
 ### Analysis of Outcomes Based on Launch Date
 
 
-In the Theater Outcomes Based on Launch Date chart below, we see there is an increase to successful campaigns beginning in April and apexes in May. Campaigns then show a steady decline until the end of the year. 
+In the Theater Outcomes Based on the Launch Date chart below, we see an increase in successful campaigns beginning in April and apexes in May. Campaigns then show a steady decline until the end of the year. 
 
 
 ![Theater Outcomes vs launch](https://github.com/Azrand/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png)
@@ -30,8 +30,8 @@ In the Theater Outcomes Based on Launch Date chart below, we see there is an inc
 ### Comparative Analysis Between Successful, Failed, and Canceled
 
 
-When we dive into the numbers and look at which month is best to launch a successful campaign, there is one month that stands out as the worst month – December. December’s success rate was 49%, with a total of 75 campaigns launched, 37 were successful, 35 failed, and 3 were canceled. 
-Overall, from 2009 to 2017, there was a grand total of 1,369 plays that launched a Kickstarter campaign. 839 of them were successful, 493 of them failing, and 37 canceled. If one was to launch a campaign during this time frame, there would have been a 61% of it being successful.
+When we dive into the numbers and look at which month is best to launch a successful campaign, one month stands out as the worst month – December. December’s success rate was 49%, with 75 campaigns launched, 37 were successful, 35 failed, and 3 were canceled. 
+Overall, from 2009 to 2017, there was a total of 1,369 plays that launched a Kickstarter campaign. 839 were successful, 493 of them failing, and 37 canceled. If one were to launch a campaign during this time frame, there would have been a 61% of it being successful.
 
 ### Percentage of Success by Launch Date
 
@@ -55,7 +55,7 @@ Overall, from 2009 to 2017, there was a grand total of 1,369 plays that launched
 ### Analysis of Outcomes Based on Goals
 
 
-The Outcomes Based on Goal chart below, shows that campaigns $1,000 or less have the highest success rate at 75%. There was a total of 251 projects where 188 were successful and 63 failed. The lowest chance for success were campaigns that ranged from $45,000 or greater with a failure rate of 88%. There was a total of 16 projects where 2 were successful in the greater than $50,000 range.  
+The Outcomes Based on Goal chart below shows that $1,000 or less campaigns have the highest success rate at 75%. There was a total of 251 projects where 188 were successful and 63 failed. The lowest chance for success were campaigns that ranged from $45,000 or greater, with a failure rate of 88%. There were 16 projects where 2 were successful in the greater than $50,000 range.  
  
 
 ![Outcomes Based on Goals](https://github.com/Azrand/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
@@ -63,7 +63,7 @@ The Outcomes Based on Goal chart below, shows that campaigns $1,000 or less have
 ### Data Table Insight
 
 
-Looking at the data table below we can see that campaigns that had goals less than $20,000 had a success rate of 50% or higher. 
+Looking at the data table below, we can see that campaigns with goals of less than $20,000 had a success rate of 50% or higher. 
 
 
 |Goal|Number Successful|Number Failed|Total Projects|	Percentage Successful|Percentage Failed|
@@ -85,8 +85,9 @@ Looking at the data table below we can see that campaigns that had goals less th
 ## Challenges and Difficulties Encountered
 
 
-Initial challenge was to ensure that the data was structured correctly. We initially needed to filter the data by creating two new columns, Parent Categories, and Sub-Categories. If we were unable to do this correctly, we would not have the results provided. 
-Another difficulty was limited data. In comparison to the other campaigns based on funding goals, there is limited data on campaigns that range between $25,000 or higher. We can look at the chart below and see the comparison for Launch Date and Goals for campaigns of $25,000 or more. We have a higher failure rate but the data looks inconsistent. 
+The initial challenge was structurings the data correctly. We initially needed to filter the data by creating two new columns, Parent Categories and Sub-Categories. If we could not do this correctly, we would not have the results provided.
+ 
+Another difficulty was limited data. Compared to the other campaigns based on funding goals, there is limited data on campaigns that range between $25,000 or higher. We can look at the chart below and see the comparison of Launch Date and Goals for campaigns of $25,000 or more. We have a higher failure rate, but the data looks inconsistent. 
 
 
 ![Launch Date & Goals](https://github.com/Azrand/kickstarter-analysis/blob/main/resources/Launch_Date_and_Goals.png)
@@ -99,20 +100,20 @@ Unlike the Theater outcomes by Launch Date Chart, May is not as successful for a
 **Conclusions of Outcomes Based on Launch Date**
 
 
-1.	If a theater is looking to launch a Kickstarter campaign, May and June have the highest percentage of success at 67% and 65% in comparison to the rest of the year. 
+1.	If a theater is looking to launch a Kickstarter campaign, May and June have the highest percentage of success at 67% and 65% compared to the rest of the year. 
 2.	December is the worst month to start a campaign due to a 49% success rate. 
 
 
 **Conclusions of Outcomes Based on Goals**
 
 
-1.	If a theater is looking to launch a Kickstarter campaign based on a range of monetary goals, campaigns less than $20,000 have a higher chance of success in comparison to other campaigns. Success ranges from 50% at the $15,000 to $19,999 range to 75% at the $1,000 or less range.
+1.	If a theater is looking to launch a Kickstarter campaign based on a range of monetary goals, campaigns less than $20,000 have a higher chance of success than other campaigns. Success ranges from 50% at the $15,000 to $19,999 range to 75% at the $1,000 or less range.
 2.	Campaign goals of $50,000 or greater have an 88% failure rate.
 
 
 **Final Conclusions Based on Results**
 
 
-Although we see a spike in success between the $35,000 to $44,999 range, there is not enough data to conclude the success rate is accurate and more data will be needed. From the data that we have, we can infer if Louise was to launch their campaign during the months of May or June, with a monetary goal of $20,000 or less, they would have had a higher chance of their campaign being successful. 
+Although we see a spike in success between the $35,000 to $44,999 range, there is not enough data to conclude the success rate is accurate and more data will be needed. From the data we have, we can infer that if Louise were to launch their campaign during May or June, with a monetary goal of $20,000 or less, they would have had a higher chance of their campaign being successful. 
 
 
