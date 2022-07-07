@@ -89,7 +89,9 @@ Initial challenge was to ensure that the data was structured correctly. We initi
 Another difficulty was limited data. In comparison to the other campaigns based on funding goals, there is limited data on campaigns that range between $25,000 or higher. We can look at the chart below and see the comparison for Launch Date and Goals for campaigns of $25,000 or more. We have a higher failure rate but the data looks inconsistent. 
 
 
-Unlike the Theater outcomes by Launch Date Chart Above, May is not as successful for a larger denomination campaign. For us to be accurate and transparent to our client, Louise, more analysis would be needed to determine why campaigns $25,000 or higher were successful and why others failed.
+![Launch Date & Goals](https://github.com/Azrand/kickstarter-analysis/blob/main/resources/Launch_Date_and_Goals.png)
+
+Unlike the Theater outcomes by Launch Date Chart, May is not as successful for a larger denomination campaign. For us to be accurate and transparent to our client, Louise, more analysis would be needed to determine why campaigns $25,000 or higher were successful and why others failed.
  
 ## Results
 
