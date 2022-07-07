@@ -24,7 +24,7 @@ Once the data is filtered and displayed correctly, we can infer when the optimal
 In the Theater Outcomes Based on Launch Date chart below, we see there is an increase to successful campaigns beginning in April and apexes in May. Campaigns then show a steady decline until the end of the year. 
 
 
-
+![Theater Outcomes vs launch](https://github.com/Azrand/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png)
 
  
 ### Comparative Analysis Between Successful, Failed, and Canceled
@@ -57,7 +57,9 @@ Overall, from 2009 to 2017, there was a grand total of 1,369 plays that launched
 
 The Outcomes Based on Goal chart below, shows that campaigns $1,000 or less have the highest success rate at 75%. There was a total of 251 projects where 188 were successful and 63 failed. The lowest chance for success were campaigns that ranged from $45,000 or greater with a failure rate of 88%. There was a total of 16 projects where 2 were successful in the greater than $50,000 range.  
  
- 
+
+![Outcomes Based on Goals](https://github.com/Azrand/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+
 ### Data Table Insight
 
 
@@ -85,18 +87,30 @@ Looking at the data table below we can see that campaigns that had goals less th
 
 Initial challenge was to ensure that the data was structured correctly. We initially needed to filter the data by creating two new columns, Parent Categories, and Sub-Categories. If we were unable to do this correctly, we would not have the results provided. 
 Another difficulty was limited data. In comparison to the other campaigns based on funding goals, there is limited data on campaigns that range between $25,000 or higher. We can look at the chart below and see the comparison for Launch Date and Goals for campaigns of $25,000 or more. We have a higher failure rate but the data looks inconsistent. 
+
+
 Unlike the Theater outcomes by Launch Date Chart Above, May is not as successful for a larger denomination campaign. For us to be accurate and transparent to our client, Louise, more analysis would be needed to determine why campaigns $25,000 or higher were successful and why others failed.
  
 ## Results
 
 
-Conclusions of Outcomes Based on Launch Date
+**Conclusions of Outcomes Based on Launch Date**
+
+
 1.	If a theater is looking to launch a Kickstarter campaign, May and June have the highest percentage of success at 67% and 65% in comparison to the rest of the year. 
 2.	December is the worst month to start a campaign due to a failure rate of 51%. 
-Conclusions of Outcomes Based on Goals
+
+
+**Conclusions of Outcomes Based on Goals**
+
+
 1.	If a theater is looking to launch a Kickstarter campaign based on a range of monetary goals, campaigns less than $20,000 have a higher chance of success in comparison to other campaigns. Success ranges from 50% at the $15,000 to $19,999 range to 75% at the $1,000 or less range.
 2.	Campaign goals of $50,000 or greater have an 88% failure rate.
-Final Conclusions Based on Results
+
+
+**Final Conclusions Based on Results**
+
+
 Although we see a spike in success between the $35,000 to $44,999 range, there is not enough data to conclude the success rate is accurate and more data will be needed. From the data that we have, we can infer if Louise was to launch their campaign during the months of May or June, with a monetary goal of $20,000 or less, they would have had a higher chance of their campaign being successful. 
 
 
