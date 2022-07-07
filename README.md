@@ -100,7 +100,7 @@ Unlike the Theater outcomes by Launch Date Chart, May is not as successful for a
 
 
 1.	If a theater is looking to launch a Kickstarter campaign, May and June have the highest percentage of success at 67% and 65% in comparison to the rest of the year. 
-2.	December is the worst month to start a campaign due to a failure rate of 51%. 
+2.	December is the worst month to start a campaign due to a 49% success rate. 
 
 
 **Conclusions of Outcomes Based on Goals**
